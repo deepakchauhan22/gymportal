@@ -24,7 +24,7 @@ border-bottom: 1px ridge;  */
 
   .footer-content {
     margin: 0px auto;
-    padding:25px 40px;
+    padding:25px 30px;
     min-height: 230px; }
 .socialblock {
   height: 200px; }
@@ -185,24 +185,6 @@ body {
 
   }
 
-  /* }
-    .navbar-custom .join-now:hover{
-      transition: width 0.3s ease 0s, left 0.3s ease 0s;
-      background: linear-gradient(110deg,#48C9B0 50%,#CACFD2  0);} */
-  
-  
-/*     
-    .navbar-nav.navbar-center {
-      position: absolute;
-      left: 50%;
-      transform: translatex(-50%);
-  }
-  .navbar-nav.navbar-right {
-    position: absolute;
-    right: 0%;
-    transform: translatex(-50%);
-} */
-
 .posty:hover{ 
   text-decoration:none;
   color: #000;
@@ -215,14 +197,7 @@ body {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px; }
-/* 
-.propServices , .opareas, #discount-block ,.realestate{
-  background: #E5E7E9 ;
-  -webkit-box-shadow: 11px 7px 0px -1px rgba(72,201,176,1);
-  -moz-box-shadow: 11px 7px 0px -1px rgba(72,201,176,1);
-  box-shadow: 11px 7px 0px -1px rgba(72,201,176,1);
- 
-} */
+
 
 .realestates{
   background-color: #8d9db6;
@@ -330,55 +305,19 @@ box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
   font-size: 1rem;
   line-height: 1.5;
   border-radius: .3rem; }
-
-  .abstract1{
-    width: 80%;
-    z-index: 10;
+  .pride h1 {
+    text-align: center;
     position: relative;
-  }
-  .abstract3{
-    width: 60%;
-    position: relative;
-  }
-  .abstract2{
-    width: 80%;
-    position: absolute;
-    left: 30%;
-    bottom: 10%;
-  }
-  .abstract4{
-    width: 80%;
-    position: relative;
-    bottom: 5%;
-    left: 8%;
-  }
-  .pride h1{
-    position: relative;
-    bottom: -10%;
+    top: 40%;
 }
 .pain h1{
-  padding-bottom: 20px;
+  text-align: center;
   position: relative;
+  top: 40%;
 }
-.pain h2{
-  position: relative;
-    padding: 20px;
-    
+.middle .below{
+  text-align: center;
 }
-
-
-/* .discount #discount-block {
-  height: 200px; } */
-
-/* .discount button {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  border-radius: .3rem;
-  font-weight: bolder;
-  background: #48C9B0; 
-  background: linear-gradient(110deg,#48C9B0 60%,#819bca 0);
-} */
-
   .posty{
     text-decoration:none;
     color: #000;
@@ -469,18 +408,6 @@ footer {
     box-shadow: -9px 8px 35px 1px rgba(214,219,223,1);
   }
 
-  /* @media (min-width: 576px) {
-
-    .navbar-custom {
-      padding: 20px 10px 20px 10px!important;
-  }
-  .phonebook span {
-    padding: 5px 0px 5px 0px;
-    display: block;
-}
-   }
-
-*/
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
@@ -498,6 +425,15 @@ footer {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
+
+  .pride h1 {
+    font-size: 2.1rem;
+    top: 35%;
+}
+.pain h1 {
+  font-size: 2.1rem;
+  top: 35%;
+}
 
   .open-time {
     padding: 10px 0px 20px 0px;
@@ -520,7 +456,6 @@ footer {
   margin: 0px 0px 0px 10px;
 
 }
-
 .navbar-nav .fa , .fas{
   display: none;
 }
@@ -530,6 +465,11 @@ footer {
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
+  .footer-content {
+    margin: 0px auto;
+    padding: 25px 20px;
+    min-height: 230px;
+}
   .intro {
     padding: 5px;
 }
@@ -589,9 +529,25 @@ footer {
 #specs h4 {
   font-size: 20px;
 }
+.pride h1 {
+  font-size: 1.8rem;
+    top: 35%;
+    right: 11%;
+
+}
+.pain h1 {
+font-size: 1.8rem;
+top: 35%;
+}
 }
 
    @media (min-width: 250px) and (max-width:575.98px) { 
+
+    .footer-content {
+      margin: 0px auto;
+      padding: 25px 10px;
+      min-height: 230px;
+  }
     
         .navbar-brand {
           font-size: 30px;
@@ -680,44 +636,31 @@ footer {
     .navbar-collapse{
         padding: 10px;
     }
-    .abstract1{
-      width: 100%;
-      z-index: 10;
-      position: relative;
-    }
-    .abstract3{
-      width: 100%;
-      position: relative;
-    }
-    .abstract2{
-      width: 100%;
-      position: absolute;
-      left: 10%;
-      bottom: 10%;
-    }
-    .abstract4{
-      width: 100%;
-      position: relative;
-      bottom: 5%;
-      left: 8%;
-    }
-    .pride h1{
-      position: relative;
-      top: 5%;
-      font-size: 20px;
-  }
-  .pain h1{
-    padding-bottom: 20px;
-    position: relative;
-    font-size: 20px;
-  }
-  .pain h2{
-    position: relative;
-      padding: 20px;
-      font-size: 20px;
-      
-  }
   
+    .pride h1 {
+      font-size: 1.1rem;
+      top: 30%;
+      right: 12%;
+  }
+  .pain h1 {
+    font-size: 1.1rem;
+    top: 30%;
+    right: 12%;
+}
+  
+  }
+
+  @media (min-width: 100px) and (max-width: 372px){
+      .pride h1 {
+        font-size: 0.8rem;
+        top: 30%;
+        right: 30%;
+      }
+      .pain h1 {
+        font-size: 0.8rem;
+        top: 30%;
+        right: 30%;
+      }
   }
 
 
